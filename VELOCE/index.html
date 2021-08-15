@@ -1,0 +1,230 @@
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider').bxSlider({
+                auto: true,
+                pause: 5000,
+            });
+            $('#recruit').on('click', function () {
+                $(this).next().slideToggle();
+            });
+            
+        });
+    
+</script>
+</head>
+<body>
+<div class="wrapper">
+    <div class="header">
+        <div class="header-u">
+        <img src="img/logo01.png" alt="VELOCE">
+            <div class="header-list">
+                <ul>
+                    <li><a href="#">サイドマップ</a></li>
+                    <li><a href="#">お問い合わせ</a></li>
+                    <li><a href="#">プライバシーポリシー</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-d">
+            <div class="headnav"><a href="#"><img src="img/bnav01_sp.png"></a></div>
+            <div class="headnav"><a href="#"></a><img src="img/bnav02_sp.png"></a></div>
+            <div class="headnav"><a href="#"><img src="img/bnav03_sp.png"></a></div>
+            <div id="recruit"><a href="#"><img src="img/bnav04_sp_off.png"></a></div>
+                <div class="recruit-nav">
+                    <p>アルバイト採用情報 ></p>
+                    <p>社員採用情報 ></p>
+                </div>
+            </a>
+            
+        </div>
+    </div>
+    <div class="scrole">
+        <div class="slider">
+            <img src="img/img_mv03.jpg" width="1000" height="380" alt="">
+            <img src="img/img_mv04.jpg" width="1000" height="380" alt="">
+            <img src="img/img_mv04.jpg" width="1000" height="380" alt="">
+            <img src="img/img_mv04.jpg" width="1000" height="380" alt="">
+        </div>
+        <div class="news" id="aaa">
+            <a href="#">コロナウイルスに関する情報（●月●日更新）</a>
+            <img src="img/kodawari.png" >
+        </div>
+        
+    </div>
+    <div class="menu-wrapper">
+        <div class="title">
+            <div class="t-menu">
+                <h2>メニュー<br><p>MENU</p></h2>
+            </div>
+        </div>
+        <div class="rec">
+            <h3>季節のオススメ</h3>
+            <div class="rec-nav">
+                <div class="item-u">
+                    <img src="img/img_coffee26.png" alt="">
+                    <p>ザクロスカッシュメガ</p>
+                    <span>¥480</span>
+                </div>
+                <div class="item-u">
+                    <img src="img/img_coffee27.png" alt="">
+                    <p>カラマンシースカッシュメガ</p>
+                    <span>¥480</span>
+                </div>
+                <div class="item-u">
+                    <img src="img/img_coffee28.png" alt="">
+                    <p>アイスコーヒーメガ</p>
+                    <span>¥390</span>
+                </div>
+                <div class="item-d">
+                    <img src="img/img04.png" alt="">
+                    <p>ほろにがプリン</p>
+                    <span>¥396</span>
+                </div>
+                <div class="item-d">
+                    <img src="img/img15.png" alt="">
+                    <p>バジルチキンサンド</p>
+                    <span>¥220</span>
+                </div>
+                <div class="item-d">
+                    <img src="img/img06.png" alt="">
+                    <p>チキン南蛮サンド〜柚子風味〜</p>
+                    <span>¥242</span>
+                </div>
+            </div>
+            <p class="end">※表示価格は店内飲食の税込価格となります。</p>
+        </div>
+        <div class="gland-wrapper">
+            <h3>グランドメニュー</h3>
+        <div class="grandmenu">
+            <div class="menu01">
+                <div class="menu-li">
+                    <a href="#">
+                        <img src="img/img_menu01.png" class="maru">
+                        <img src="img/text_menu01.png" class="menu-text01">
+                        <img src="img/nav_right.png" alt="">
+                    </a>
+                </div>
+                <div class="menu-li">
+                    <a href="#">
+                        <img src="img/img_menu02.png" class="maru">
+                        <img src="img/text_menu02.png" class="menu-text02">
+                        <img src="img/nav_right.png" alt="">
+                    </a>
+                </div>
+                <div class="menu-li">
+                    <a href="#">
+                        <img src="img/img_menu03.png" class="maru">
+                        <img src="img/text_menu03.png" class="menu-text03">
+                        <img src="img/nav_right.png" class="menu-k">
+                    </a>
+                </div>
+                <div class="menu-li">
+                    <a href="#">
+                        <img src="img/img_menu04.png" class="maru">
+                        <img src="img/text_menu04.png" class="menu-text04">
+                        <img src="img/nav_right.png" class="menu-k">
+                    </a>
+                </div>
+            </div>
+            <div class="menu02">
+                <div class="menu-li">
+                    <a href="#">
+                        <img src="img/img_menu05.png" class="maru">
+                        <img src="img/text_menu05.png" class="menu-text05">
+                        <img src="img/nav_right.png" class="menu-k">
+                    </a>
+                </div>
+                <div class="menu-li">
+                    <a href="#">
+                        <img src="img/img_menu06.png" class="maru">
+                        <img src="img/text_menu06.png" class="menu-text06">
+                        <img src="img/nav_right.png" class="menu-k">
+                    </a>
+                </div>
+                <div class="menu-li">
+                    <a href="#">
+                        <img src="img/img_menu07.png" class="maru">
+                        <img src="img/text_menu07.png" class="menu-text07">
+                        <img src="img/nav_right.png" class="menu-k">
+                    </a>
+                </div>
+                <div class="menu-li">
+                    <a href="#">
+                        <img src="img/img_menu11.png" class="maru">
+                        <img src="img/text_menu11.png" class="menu-text08">
+                        <img src="img/nav_right.png" class="menu-k">
+                    </a>
+                </div>
+            </div>
+            <div class="menu03">
+                <div class="menu-li">
+                    <a href="#">
+                        <img src="img/img_menu08.png" class="maru">
+                        <img src="img/text_menu08.png" class="menu-text09">
+                        <img src="img/nav_right.png" class="menu-k">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="qa-wrapper">
+        <div class="qa-container">
+            <div class="link">
+                <div class="twitter"><a href="#">カフェ・ベローチェ公式Twitter</a></div>
+                <a class="twitter-timeline" data-height="315" href="https://twitter.com/PR_VELOCE?ref_src=twsrc%5Etfw">Tweets by PR_VELOCE</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+        <div class="right">
+            <div class="info">
+                <div class="info01">
+                    <span>よくある質問</span>
+                    <br><p>Q&A</p>
+                </div>
+                <div class="info01">
+                    <span>店舗検索</span>
+                    <br><p>LOCATION</p>
+                </div>
+                <div class="info01">
+                    <span>お問い合わせ</span>
+                    <br><p>CONTACT</p>
+                </div>
+                <div class="info01">
+                    <span>採用情報</span>
+                    <br><p>RECRUIT</p>
+                </div>
+            </div>
+            <div class="sns">
+                <p>SNSアカウントはこちら</p>
+                <div class="icon">
+                    <a href="#"><img src="img/ico_twitter.png" alt=""></a>
+                    <a href="#"><img src="img/ico_facebook.png" alt=""></a>
+                    <a href="#"><img src="img/ico_instagram.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="footer">
+        <ul>
+            <li><a href="#">お問い合わせ</a></li>
+            <li><a href="#">プライバシーポリシー</a></li>
+            <li><a href="#">社会情報</a></li>
+            <li><a href="#">サイドマップ</a></li>
+        </ul>
+        <img src="img/logo_02_sp.png" alt="">
+        <p>Copyright(c)2021 C-United Co., Ltd.All Rights Reserved.</p>
+    </div>
+    </div>
+</div>
+</body>
+
+</html>
